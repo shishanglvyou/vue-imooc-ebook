@@ -5,7 +5,6 @@
 </template>
 
 <script>
-  import {mapGetters} from 'vuex'
   export default {}
   document.addEventListener('DOMContentLoaded', () => {
     let fontSize = window.innerWidth / 10
@@ -16,5 +15,9 @@
 </script>
 
 <style>
-
+  #app {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
 </style>
